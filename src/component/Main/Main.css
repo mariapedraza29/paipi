@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.general{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }

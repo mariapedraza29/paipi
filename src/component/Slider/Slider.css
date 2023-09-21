@@ -1,0 +1,66 @@
+.container{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3%;
+}
+.imagenes{
+    width: auto;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 8vw;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+}
+button img{
+    width: 5vw;
+    height: auto;
+    cursor: pointer;
+}
+.slide{
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.slide.active{
+    opacity: 0.5;
+}
+.zorroNovedades{
+    width: 10%;
+    height: 30vh;
+    transform: scaleX(-1);
+    position: relative;
+    top: 80px; left: 10px;
+
+}.tituloB{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: black;
+}
+.linea{
+    width: 70px;
+    margin-right: 10%;
+    height: auto;
+    height: auto;
+    border: 2px solid #ff9736;
+}
+.linea1{
+    width: 70px;
+    margin-left: 10%;
+    border: 2px solid #ff9736;
+}
